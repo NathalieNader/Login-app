@@ -1,0 +1,122 @@
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+#login {
+    background-color: #24353F;
+    min-height: 100vh;
+    padding-block: 3.75rem;
+}
+
+#login .container .content {
+    -webkit-box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+            box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 3rem;
+    width: 70%;
+    margin-inline: auto;
+}
+
+#login .container h1 {
+    color: #17a2b8;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+}
+
+#login .container input{
+    background-color: transparent;;
+    color: #fff !important;
+}
+
+#login .container input::-webkit-input-placeholder {
+    color: #ced4da !important;
+}
+
+#login .container input::-moz-placeholder {
+    color: #ced4da !important;
+}
+
+#login .container input:-ms-input-placeholder {
+    color: #ced4da !important;
+}
+
+#login .container input::-ms-input-placeholder {
+    color: #ced4da !important;
+}
+
+#login .container input::placeholder {
+    color: #ced4da !important;
+}
+
+#login .container .btn:hover {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    color: #fff;
+}
+
+#login .container p {
+    color: #fff;
+}
+
+#login .container p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#login .container #status {
+    font-size: 1rem;
+}
+
+#welcome {
+    background-color: #24353F;
+}
+
+#welcome .nav-item .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+#welcome .nav-item .nav-link:hover {
+    color: #fff;
+    background-color: #FFC107;
+}
+
+nav {
+    -webkit-box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+            box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav .navbar-toggler-icon {
+    background-image: url(./../images/download.svg);
+}
+
+#welcome .content-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90%;
+}
+#welcome .container .content {
+    -webkit-box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+            box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 60%;
+    padding: 3rem;
+}
+
+#welcome .container .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    color: #17A2B8;
+}
